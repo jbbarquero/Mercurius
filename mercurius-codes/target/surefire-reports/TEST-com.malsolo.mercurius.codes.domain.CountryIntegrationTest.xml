@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="5.763" errors="0" skipped="0" tests="9" name="com.malsolo.mercurius.codes.domain.CountryIntegrationTest">
+<testsuite failures="0" time="4.451" errors="0" skipped="0" tests="9" name="com.malsolo.mercurius.codes.domain.CountryIntegrationTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/jbbarquero/Documents/roo/mercurius"/>
+    <property name="user.dir" value="/Users/jbbarquero/Documents/roo/mercurius/mercurius-codes"/>
     <property name="java.runtime.version" value="1.6.0_29-b11-402-11M3527"/>
     <property name="java.awt.graphicsenv" value="apple.awt.CGraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed"/>
@@ -45,7 +45,7 @@
     <property name="java.vm.specification.version" value="1.0"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
     <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="apple.awt.CToolkit"/>
@@ -64,13 +64,13 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase time="4.716" classname="com.malsolo.mercurius.codes.domain.CountryIntegrationTest" name="testMarkerMethod"/>
-  <testcase time="0.41" classname="com.malsolo.mercurius.codes.domain.CountryIntegrationTest" name="testCountAllCountrys"/>
-  <testcase time="0.062" classname="com.malsolo.mercurius.codes.domain.CountryIntegrationTest" name="testFindCountry"/>
-  <testcase time="0.054" classname="com.malsolo.mercurius.codes.domain.CountryIntegrationTest" name="testFindAllCountrys"/>
-  <testcase time="0.053" classname="com.malsolo.mercurius.codes.domain.CountryIntegrationTest" name="testFindCountryEntries"/>
-  <testcase time="0.045" classname="com.malsolo.mercurius.codes.domain.CountryIntegrationTest" name="testFlush"/>
-  <testcase time="0.049" classname="com.malsolo.mercurius.codes.domain.CountryIntegrationTest" name="testUpdateCountryUpdate"/>
-  <testcase time="0.052" classname="com.malsolo.mercurius.codes.domain.CountryIntegrationTest" name="testSaveCountry"/>
-  <testcase time="0.099" classname="com.malsolo.mercurius.codes.domain.CountryIntegrationTest" name="testDeleteCountry"/>
+  <testcase time="3.558" classname="com.malsolo.mercurius.codes.domain.CountryIntegrationTest" name="testMarkerMethod"/>
+  <testcase time="0.302" classname="com.malsolo.mercurius.codes.domain.CountryIntegrationTest" name="testCountAllCountrys"/>
+  <testcase time="0.061" classname="com.malsolo.mercurius.codes.domain.CountryIntegrationTest" name="testFindCountry"/>
+  <testcase time="0.045" classname="com.malsolo.mercurius.codes.domain.CountryIntegrationTest" name="testFindAllCountrys"/>
+  <testcase time="0.051" classname="com.malsolo.mercurius.codes.domain.CountryIntegrationTest" name="testFindCountryEntries"/>
+  <testcase time="0.042" classname="com.malsolo.mercurius.codes.domain.CountryIntegrationTest" name="testFlush"/>
+  <testcase time="0.052" classname="com.malsolo.mercurius.codes.domain.CountryIntegrationTest" name="testUpdateCountryUpdate"/>
+  <testcase time="0.05" classname="com.malsolo.mercurius.codes.domain.CountryIntegrationTest" name="testSaveCountry"/>
+  <testcase time="0.047" classname="com.malsolo.mercurius.codes.domain.CountryIntegrationTest" name="testDeleteCountry"/>
 </testsuite>

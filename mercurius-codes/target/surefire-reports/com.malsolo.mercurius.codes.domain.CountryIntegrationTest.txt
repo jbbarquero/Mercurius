@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.malsolo.mercurius.codes.domain.CountryIntegrationTest
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.764 sec
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.46 sec
