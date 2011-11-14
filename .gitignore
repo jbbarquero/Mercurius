@@ -1,6 +1,6 @@
 /log.roo
 /application.log*
-/.settings
+*/.settings*
 /.project
 /.classpath
 /target
