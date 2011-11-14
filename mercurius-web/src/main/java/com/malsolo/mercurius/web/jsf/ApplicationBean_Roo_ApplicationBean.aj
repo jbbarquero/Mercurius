@@ -63,7 +63,7 @@ privileged aspect ApplicationBean_Roo_ApplicationBean {
     }
     
     public java.lang.String ApplicationBean.getAppName() {
-        return "Mercurius-web";
+        return "Mercurius";
     }
     
 }
