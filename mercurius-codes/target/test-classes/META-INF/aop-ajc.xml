@@ -1,9 +1,0 @@
-<aspectj>
-<aspects>
-<aspect name="com.malsolo.mercurius.codes.domain.CountryIntegrationTest_Roo_IntegrationTest"/>
-<aspect name="com.malsolo.mercurius.codes.domain.CountryDataOnDemand_Roo_Configurable"/>
-<aspect name="com.malsolo.mercurius.codes.domain.CountryDataOnDemand_Roo_DataOnDemand"/>
-<aspect name="com.malsolo.mercurius.codes.domain.CountryIntegrationTest_Roo_Configurable"/>
-</aspects>
-</aspectj>
-
