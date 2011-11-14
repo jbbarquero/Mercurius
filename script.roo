@@ -1,0 +1,42 @@
+// Spring Roo 1.2.0.BUILD-SNAPSHOT [rev 80bf988] log opened at 2011-11-14 19:38:48
+help
+project --topLevelPackage com.malsolo.mercurius --projectName mercurius
+module create --moduleName mercurius-core --topLevelPackage ~.core
+module focus --moduleName ~
+module create --moduleName mercurius-web --topLevelPackage ~.jsf
+module focus --moduleName mercurius-core 
+// [failed] module create --moduleName mercurius-web --topLevelPackage ~.web
+// [failed] module create --moduleName mercurius-web --topLevelPackage ~.web
+q
+// Spring Roo 1.2.0.BUILD-SNAPSHOT [rev 80bf988] log closed at 2011-11-14 20:55:24
+// Spring Roo 1.2.0.BUILD-SNAPSHOT [rev 80bf988] log opened at 2011-11-14 20:56:03
+project --topLevelPackage com.malsolo.mercurius --projectName mercurius
+module create --moduleName mercurius-core --topLevelPackage ~.core
+module focus --moduleName ~
+module create --moduleName mercurius-web --topLevelPackage ~.web
+module focus --moduleName mercurius-core 
+module focus --moduleName ~
+module create --moduleName mercurius-codes --topLevelPackage ~.codes
+jpa setup --provider HIBERNATE --database POSTGRES --databaseName DSNP --userName WASDSND1 --password 24rh971o
+entity jpa --class ~.domain.Country --table ISO_3166_1 --testAutomatically 
+field string --fieldName name --column NAME --sizeMax 50 --notNull 
+field string --fieldName code2 --column ALPHA_2 --sizeMax 2 --notNull 
+field string code3 --column ALPHA_3 --sizeMax 3 --notNull 
+field number --fieldName yeariso --type int --column YEAR_ISO --max 9999 --primitive 
+field string --fieldName ccTld --column CC_TLD --sizeMax 4 --notNull
+field string --fieldName notes --column NOTES --sizeMax 100
+service --interface ~.service.CountryService --entity ~.domain.Country
+module focus --moduleName mercurius-web 
+web jsf setup --implementation APACHE_MYFACES --theme DOT_LUV 
+web jsf all --package ~.jsf
+perform tests
+module focus --moduleName mercurius-core 
+perform tests
+module focus --moduleName mercurius-web 
+perform tests
+module focus --moduleName ~
+perform tests
+perform eclipse
+perform eclipse
+q
+// Spring Roo 1.2.0.BUILD-SNAPSHOT [rev 80bf988] log closed at 2011-11-14 22:54:47

@@ -1,0 +1,11 @@
+<aspectj>
+<aspects>
+<aspect name="com.malsolo.mercurius.web.jsf.ApplicationBean_Roo_ApplicationBean"/>
+<aspect name="com.malsolo.mercurius.web.jsf.converter.CountryConverter_Roo_Configurable"/>
+<aspect name="com.malsolo.mercurius.web.jsf.ApplicationBean_Roo_Configurable"/>
+<aspect name="com.malsolo.mercurius.web.jsf.CountryBean_Roo_Configurable"/>
+<aspect name="com.malsolo.mercurius.web.jsf.CountryBean_Roo_ManagedBean"/>
+<aspect name="com.malsolo.mercurius.web.jsf.converter.CountryConverter_Roo_Converter"/>
+</aspects>
+</aspectj>
+
